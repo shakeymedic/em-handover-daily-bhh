@@ -129,7 +129,7 @@ main {
 /* Top grid: 3 sections + meetings */
 .hv-top {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 0.65fr;
+  grid-template-columns: 1fr 1fr 1fr 0.6fr 0.6fr;
   gap: 0.5rem;
   flex: 1 1 0; min-height: 0;
 }
@@ -559,15 +559,24 @@ body.handover .hv-paper__qr-col .hv-paper__no-qr { width: 90px; height: 90px; }
       </div>
     </div>
 
-    <!-- Meetings + Trials sidebar (violet) -->
+    <!-- Meetings sidebar (violet) -->
     <div class="hv-col hv-col--meet">
-      <div class="hv-col__hdr">Upcoming · Trials</div>
+      <div class="hv-col__hdr">Upcoming</div>
       <div class="hv-card">
         <div class="pb">
           <div class="pb__hdr">Educational events</div>
           <div id="hv-meetings"><div class="meet-empty">Loading…</div></div>
         </div>
-        <div class="pb" id="hv-trials-box"></div>
+      </div>
+    </div>
+
+    <!-- Trials sidebar (green) -->
+    <div class="hv-col hv-col--trial">
+      <div class="hv-col__hdr">Trials</div>
+      <div class="hv-card" id="hv-trials-box">
+        <div class="pb">
+          <div class="meet-empty">Loading…</div>
+        </div>
       </div>
     </div>
 
@@ -657,16 +666,15 @@ body.handover .hv-paper__qr-col .hv-paper__no-qr { width: 90px; height: 90px; }
       const active = (data.trials || []).filter(t => t.status === 'recruiting' || t.status === 'paused');
       if (!active.length) return;
       const statusLabel = { recruiting: 'Recruiting', paused: 'Paused', closed: 'Closed' };
-      box.innerHTML =
-        `<div class="pb__hdr">Current trials</div>` +
-        active.map(t => `
-          <div class="hv-trial-item">
+      box.innerHTML = active.map(t => `
+          <div class="pb">
             <div class="hv-trial-item__name">
               ${escapeHTML(t.name)}
               <span class="hv-trial-badge">${statusLabel[t.status] || t.status}</span>
             </div>
             <div class="hv-trial-item__desc">${escapeHTML(t.question || t.full_name || '')}</div>
-            <div class="hv-trial-item__incl">${escapeHTML(t.population || '')}${t.what_to_do ? ' — ' + t.what_to_do.slice(0, 80) + '…' : ''}</div>
+            <div class="hv-trial-item__incl">${escapeHTML(t.population || '')}</div>
+            ${t.what_to_do ? `<div class="hv-trial-item__action">${escapeHTML(t.what_to_do.slice(0, 120))}</div>` : ''}
           </div>`).join('');
     } catch { /* no trials file = silently skip */ }
   })();
