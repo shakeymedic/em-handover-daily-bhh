@@ -720,6 +720,633 @@
         "publisher": "Difficult Airway Society / FICM / ICS / RCoA",
         "url": "https://das.uk.com/guidelines"
       }
+    },
+    {
+      "id": "bhh-rb44-limping-child",
+      "date": "",
+      "title": "Limping child: don't miss the serious diagnoses",
+      "category": "pem",
+      "tags": [
+        "orthopaedics",
+        "paediatrics",
+        "diagnostic error"
+      ],
+      "difficulty": "core",
+      "status": "published",
+      "frcem_relevant": true,
+      "bullets": [
+        {
+          "text": "A limp in a child is septic arthritis, Perthes', SUFE, or malignancy until excluded"
+        },
+        {
+          "text": "A child who walks with a limp must be imaged — 'growing pains' is a diagnosis of exclusion"
+        },
+        {
+          "text": "SUFE is easily missed: child aged >9 years with hip pain or restricted movement is high risk"
+        },
+        {
+          "text": "Red flags: age <3 yr, unable to weight bear, fever, systemically unwell, lymphadenopathy, night pain, symptoms >6 weeks"
+        },
+        {
+          "text": "Use the Trust paediatric limping child pathway on the intranet — it has a clear flowchart"
+        },
+        {
+          "text": "Always discuss with a senior before discharging a limping child without imaging"
+        }
+      ],
+      "deep_dive": {
+        "type": "algorithm",
+        "heading": "Assessment approach",
+        "steps": [
+          "Full history: duration, fever, systemic symptoms, weight loss, trauma",
+          "Examine the hip first — SUFE and Perthes' often present as knee or thigh pain",
+          "Look for restricted internal rotation of the hip — a key early sign of SUFE",
+          "Check for red flags: if any are present, image and involve senior",
+          "Pelvic X-ray for SUFE: subtle widening of physis, Klein's line, frog-leg lateral view",
+          "If imaging negative but red flags present, consider USS, MRI, or orthopaedic review"
+        ]
+      },
+      "quiz": {
+        "question": "An 11-year-old girl has a 5-week limp. She is otherwise well. What is the single most important next step?",
+        "options": [
+          "Discharge with growing pains diagnosis and GP follow-up",
+          "Pelvic X-ray and senior review — SUFE must be excluded",
+          "USS hip only — X-ray is not indicated",
+          "Physiotherapy referral"
+        ],
+        "answer_index": 1,
+        "explanation": "SUFE is the diagnosis not to miss in a child over 9 with hip symptoms. A pelvic X-ray and senior review are mandatory. This case from Risky Business Ed 44 shows the consequence of discharge without imaging — delayed SUFE with avascular necrosis risk."
+      },
+      "source": {
+        "title": "Risky Business — Edition 44 (BHH ED Learning Newsletter, April 2026)",
+        "publisher": "BHH Emergency Department",
+        "url": ""
+      }
+    },
+    {
+      "id": "bhh-rb44-ammonia-confusion",
+      "date": "",
+      "title": "Unexplained confusion: don't forget ammonia",
+      "category": "resus",
+      "tags": [
+        "metabolic",
+        "encephalopathy",
+        "diagnostic error"
+      ],
+      "difficulty": "core",
+      "status": "published",
+      "frcem_relevant": true,
+      "bullets": [
+        {
+          "text": "Include plasma ammonia in bloods for any adult with confusion, altered consciousness or behavioural change of uncertain cause"
+        },
+        {
+          "text": "Levels >50 µmol/L are hyperammonaemia; >200 µmol/L causes seizures, cerebral oedema, coma, and death"
+        },
+        {
+          "text": "Sample on ice, urgent lab communication — avoid false readings from delayed processing"
+        },
+        {
+          "text": "OTC (ornithine transcarbamylase) deficiency can present in adult females under stress — look like intoxication or psychiatric illness"
+        },
+        {
+          "text": "For ammonia >100–200 µmol/L, urgently involve metabolic/inherited disease specialists per BIMDG protocols"
+        },
+        {
+          "text": "Hyperammonaemia encephalopathy is reversible if caught early — don't miss the window"
+        }
+      ],
+      "deep_dive": {
+        "type": "notes",
+        "heading": "OTC deficiency — the trap for female patients",
+        "points": [
+          {
+            "text": "OTC deficiency is the commonest urea cycle disorder — X-linked, so female carriers often undiagnosed"
+          },
+          {
+            "text": "Precipitants in adults: infection, high protein intake, labour, sodium valproate, steroids"
+          },
+          {
+            "text": "Presents as confusion, behavioural change, psychiatric symptoms, or coma — frequently misattributed"
+          },
+          {
+            "text": "Emergency management: high-glucose IV fluids, protein restriction, nitrogen scavengers (sodium benzoate or phenylbutyrate)"
+          },
+          {
+            "text": "Even borderline elevations with clinical suspicion warrant urgent metabolic referral"
+          }
+        ]
+      },
+      "quiz": {
+        "question": "A 38-year-old woman presents post-partum with confusion and agitation. No obvious infective source. Which test is most likely to reveal the diagnosis?",
+        "options": [
+          "Serum lactate",
+          "Plasma ammonia",
+          "Urine toxicology screen",
+          "Serum cortisol"
+        ],
+        "answer_index": 1,
+        "explanation": "OTC deficiency can present in female carriers post-partum as labour is a recognised precipitant. Plasma ammonia is the key test. This is a diagnosis that is frequently missed — it presents like intoxication or functional illness."
+      },
+      "source": {
+        "title": "Risky Business — Edition 44 (BHH ED Learning Newsletter, April 2026)",
+        "publisher": "BHH Emergency Department",
+        "url": ""
+      }
+    },
+    {
+      "id": "bhh-rb44-hand-puncture",
+      "date": "",
+      "title": "Hand puncture wounds: small entry, serious injury",
+      "category": "trauma",
+      "tags": [
+        "hand",
+        "tendon",
+        "documentation"
+      ],
+      "difficulty": "core",
+      "status": "published",
+      "frcem_relevant": true,
+      "bullets": [
+        {
+          "text": "Small entry wounds can penetrate tendons, nerves and joint capsules — size does not predict depth"
+        },
+        {
+          "text": "Test FDS and FDP in isolation: FDP — hold all other fingers extended and flex the DIP; FDS — hold adjacent fingers extended and flex the PIP"
+        },
+        {
+          "text": "A partially divided tendon may still move — pain on active motion or reduced power is the sign"
+        },
+        {
+          "text": "Altered sensation = nerve injury until excluded by thorough assessment or specialist review"
+        },
+        {
+          "text": "Document explicitly: circulation, sensation, movement of every digit — even if all normal"
+        },
+        {
+          "text": "If the wound cannot be adequately explored in your setting, refer for formal surgical exploration"
+        }
+      ],
+      "deep_dive": {
+        "type": "algorithm",
+        "heading": "Hand injury examination sequence",
+        "steps": [
+          "Circulation: capillary refill, radial and ulnar pulses, Allen's test if relevant",
+          "Sensation: radial and ulnar digital nerves each finger — light touch and 2-point discrimination",
+          "FDP (profundus): stabilise MCP and PIP, ask patient to flex DIP — tests deep flexor",
+          "FDS (superficialis): hold all other fingers in extension, ask patient to flex PIP of tested finger",
+          "Document power grade and any pain on active motion — partial division causes pain not weakness",
+          "Explore the wound base: visualise tendon at full range of motion, not just neutral position"
+        ]
+      },
+      "quiz": {
+        "question": "A patient has a puncture wound to the palm. They can flex all fingers. Sensation is intact. What is the safest next step?",
+        "options": [
+          "Discharge — movement is preserved so tendon injury is excluded",
+          "Document normal examination and refer for orthopaedic review regardless",
+          "Systematically test FDS and FDP in isolation and document power and pain, then decide on referral",
+          "X-ray only and discharge if no fracture"
+        ],
+        "answer_index": 2,
+        "explanation": "Preserved movement does not exclude partial tendon division. FDS and FDP must each be tested in isolation. Pain on active motion with preserved movement is the hallmark of a partial cut. This case from Risky Business Ed 44 resulted in a missed flexor tendon rupture and digital nerve injury."
+      },
+      "source": {
+        "title": "Risky Business — Edition 44 (BHH ED Learning Newsletter, April 2026)",
+        "publisher": "BHH Emergency Department",
+        "url": ""
+      }
+    },
+    {
+      "id": "bhh-rb44-glucose-confirmation-bias",
+      "date": "",
+      "title": "Confirmation bias: don't ever forget glucose",
+      "category": "safety",
+      "tags": [
+        "DKA",
+        "diabetes",
+        "cognitive error"
+      ],
+      "difficulty": "core",
+      "status": "published",
+      "frcem_relevant": true,
+      "bullets": [
+        {
+          "text": "Check a CBG on every diabetic patient — a normal pre-hospital reading hours ago is not sufficient"
+        },
+        {
+          "text": "Pancreatitis + T1DM = always check glucose: DKA and pancreatitis co-exist and each can precipitate the other"
+        },
+        {
+          "text": "Ensure the patient's regular insulin is prescribed — this is not automatically the medical team's job"
+        },
+        {
+          "text": "Confirmation bias: a convincing alternative diagnosis makes you less likely to look for other pathology"
+        },
+        {
+          "text": "Patients in ED for >2 hours need glucose re-monitoring if diabetic — not just on arrival"
+        },
+        {
+          "text": "See the RCEM Time-Critical Medications Safety Flash — insulin is a time-critical drug"
+        }
+      ],
+      "deep_dive": {
+        "type": "notes",
+        "heading": "Recognising confirmation bias in practice",
+        "points": [
+          {
+            "text": "Confirmation bias: you find what you're looking for and stop looking. Classic in pancreatitis, UTI, and 'collapse — found on floor'"
+          },
+          {
+            "text": "The antidote is structured: What else could explain this presentation? What would I do if the obvious diagnosis were wrong?"
+          },
+          {
+            "text": "For any T1DM or T2DM patient: CBG on assessment, CBG on review, insulin prescribed, glucose-containing fluids if BG falling on insulin"
+          },
+          {
+            "text": "DKA in euglycaemia: SGLT-2 inhibitors cause DKA with near-normal glucose — always check ketones in diabetics on flozins"
+          },
+          {
+            "text": "Post-hypoglycaemia monitoring: BM every 15 min if BM <4 mmol/L until stable — document planned frequency"
+          }
+        ]
+      },
+      "quiz": {
+        "question": "A known T1DM patient presents with epigastric pain typical of their previous pancreatitis episodes. Ambulance BM was 5.2 mmol/L four hours ago. What must not be missed?",
+        "options": [
+          "Nothing — the normal pre-hospital BM excludes DKA",
+          "A repeat CBG now and blood ketones, regardless of the previous result",
+          "An amylase only — pancreatitis is the working diagnosis",
+          "An HbA1c"
+        ],
+        "answer_index": 1,
+        "explanation": "A normal BM four hours ago does not exclude DKA developing subsequently. This case from Risky Business Ed 44 resulted in a missed DKA in a T1DM patient with pancreatitis. The patient went 12 hours without a CBG. Always check glucose on assessment regardless of pre-hospital readings."
+      },
+      "source": {
+        "title": "Risky Business — Edition 44 (BHH ED Learning Newsletter, April 2026)",
+        "publisher": "BHH Emergency Department",
+        "url": ""
+      }
+    },
+    {
+      "id": "bhh-rb44-ectopic-pregnancy",
+      "date": "",
+      "title": "Ectopic pregnancy: the positive test that was not escalated",
+      "category": "safety",
+      "tags": [
+        "ectopic",
+        "pregnancy",
+        "diagnostic error",
+        "documentation"
+      ],
+      "difficulty": "core",
+      "status": "published",
+      "frcem_relevant": true,
+      "bullets": [
+        {
+          "text": "Any female of childbearing age with abdominal pain must have a urine pregnancy test — regardless of what the patient says"
+        },
+        {
+          "text": "A positive result documented in PICS is not enough: it must be verbally escalated to the reviewing clinician"
+        },
+        {
+          "text": "The reviewing clinician must check all outstanding results before making a management plan"
+        },
+        {
+          "text": "Rectal bleeding can be a rare presentation of ectopic pregnancy — tubal erosion into bowel"
+        },
+        {
+          "text": "Always take a full menstrual history: LMP, regularity, intermenstrual bleeding, previous pregnancies"
+        },
+        {
+          "text": "If presentation is atypical but test is positive, discuss with O&G — this is a never-event if missed"
+        }
+      ],
+      "deep_dive": {
+        "type": "notes",
+        "heading": "From this case (Risky Business Ed 44, BHH)",
+        "points": [
+          {
+            "text": "Patient: 35F, suprapubic pain and rectal bleeding. Admitted under surgery for lower GI bleed"
+          },
+          {
+            "text": "Urine HCG taken at triage, documented in PICS as positive — never escalated to the clinical team"
+          },
+          {
+            "text": "Three days later: hypotensive collapse on the ward → ruptured ectopic confirmed on TVUSS"
+          },
+          {
+            "text": "The reviewing clinician documented in PICS one hour after the positive test without checking results"
+          },
+          {
+            "text": "Learning: results in PICS do not transfer — verbal escalation of positive pregnancy tests is mandatory"
+          }
+        ]
+      },
+      "quiz": {
+        "question": "A 35-year-old woman presents with rectal bleeding. A urine pregnancy test taken by nursing at triage is positive in PICS. She denies the possibility of pregnancy. What is the correct action?",
+        "options": [
+          "Accept the patient's history — a positive test with rectal bleeding is almost certainly a false positive",
+          "Escalate the positive test verbally to the clinical team and factor it into the assessment",
+          "Repeat the test — one positive result is insufficient",
+          "Discharge with GP follow-up as presentation is not typical of ectopic"
+        ],
+        "answer_index": 1,
+        "explanation": "This is the exact scenario from a real BHH case. The positive test was not escalated verbally, leading to a delayed diagnosis of ruptured ectopic. A positive pregnancy test must always be verbally communicated and change the working diagnosis, regardless of patient history."
+      },
+      "source": {
+        "title": "Risky Business — Edition 44 (BHH ED Learning Newsletter, April 2026)",
+        "publisher": "BHH Emergency Department",
+        "url": ""
+      }
+    },
+    {
+      "id": "bhh-rb44-hypoglycaemia-monitoring",
+      "date": "",
+      "title": "Hypoglycaemia: treatment is not the end of the job",
+      "category": "resus",
+      "tags": [
+        "hypoglycaemia",
+        "monitoring",
+        "diabetes"
+      ],
+      "difficulty": "core",
+      "status": "published",
+      "frcem_relevant": true,
+      "bullets": [
+        {
+          "text": "After treating hypoglycaemia: BM every 15 minutes until stable if BM was <4 mmol/L"
+        },
+        {
+          "text": "A corrected BM does not mean the episode is over — rebound hypoglycaemia is common with long-acting insulin or sulphonylureas"
+        },
+        {
+          "text": "Document planned BM monitoring frequency in your clinical notes"
+        },
+        {
+          "text": "Analgesia delays in patients with pain can contribute to agitation, absconding, and missed diagnoses"
+        },
+        {
+          "text": "Adequate analgesia within 15 minutes of arrival for moderate (score 4–6) and severe pain (score ≥7) is the RCEM standard"
+        },
+        {
+          "text": "Consider capacity documentation for high-risk patients at risk of self-discharge before clerking is complete"
+        }
+      ],
+      "deep_dive": {
+        "type": "notes",
+        "heading": "From the Risky Business Ed 44 case",
+        "points": [
+          {
+            "text": "Patient: 47M, found unresponsive at home post self-discharge. BM 0.7, GCS 3. Cardiac arrest at BM 0.61 at 05:09"
+          },
+          {
+            "text": "Post-treatment BMs: 02:34 BM=27.3, 02:47 BM=10.8, then 05:09 BM=0.61 → cardiac arrest"
+          },
+          {
+            "text": "2+ hour gap in BM monitoring after initial correction — no frequency documented in plan"
+          },
+          {
+            "text": "Key learning: treat the hypoglycaemia, document the monitoring plan, and do not let BM monitoring intervals extend"
+          },
+          {
+            "text": "Also: inadequately treated pain contributed to self-discharge before full assessment — analgesia is time-critical"
+          }
+        ]
+      },
+      "quiz": {
+        "question": "You have treated a patient with symptomatic hypoglycaemia (BM 2.1). After IV dextrose the BM is 7.4. What is the correct next step?",
+        "options": [
+          "Discharge once BM is above 4",
+          "BM every 15 minutes until stable, document planned monitoring frequency, check cause and insulin doses",
+          "Single repeat BM in 1 hour is sufficient",
+          "Hand over to nursing without specific monitoring instructions"
+        ],
+        "answer_index": 1,
+        "explanation": "A corrected BM does not end the clinical responsibility. Post-hypoglycaemia protocol: BM every 15 minutes if BM was <4 mmol/L. Document the planned monitoring frequency. Check for precipitating cause and whether insulin needs adjustment. This case resulted in a cardiac arrest from rebound hypoglycaemia."
+      },
+      "source": {
+        "title": "Risky Business — Edition 44 (BHH ED Learning Newsletter, April 2026)",
+        "publisher": "BHH Emergency Department",
+        "url": ""
+      }
+    },
+    {
+      "id": "bhh-rb44-oxygen-prescribing",
+      "date": "",
+      "title": "Oxygen prescribing in COPD: the PICS default trap",
+      "category": "safety",
+      "tags": [
+        "COPD",
+        "oxygen",
+        "prescribing",
+        "PICS"
+      ],
+      "difficulty": "core",
+      "status": "published",
+      "frcem_relevant": true,
+      "bullets": [
+        {
+          "text": "COPD patients: prescribe oxygen as PRN with target SpO2 88–92% on PICS — not as regular 4× daily"
+        },
+        {
+          "text": "If oxygen is removed from PICS by another team, PICS defaults to Scale 1 (SpO2 >94%) — dangerous in COPD"
+        },
+        {
+          "text": "If you cancel or modify an oxygen prescription, re-prescribe it correctly immediately"
+        },
+        {
+          "text": "Nursing staff must escalate to a clinician if oxygen is being administered without a prescription"
+        },
+        {
+          "text": "Type 2 respiratory failure risk: SpO2 target >94% in COPD can suppress hypoxic drive → CO2 retention → acidosis → NIV"
+        },
+        {
+          "text": "If in doubt, use the BTS oxygen prescribing guidelines and target SpO2 88–92% in all known COPD patients"
+        }
+      ],
+      "deep_dive": {
+        "type": "notes",
+        "heading": "The PICS oxygen prescribing cascade",
+        "points": [
+          {
+            "text": "COPD patient prescribed Scale 2 oxygen (88–92%) in ED → referred to medical team"
+          },
+          {
+            "text": "Medical SHO cancels oxygen prescription → PICS defaults to Scale 1 (>94%)"
+          },
+          {
+            "text": "Nursing staff commence oxygen when SpO2 falls below 94% as prompted by PICS"
+          },
+          {
+            "text": "Patient develops type 2 respiratory failure over hours → CO2 narcosis → near-NIV"
+          },
+          {
+            "text": "Systems issue: PICS should not default COPD/type 2 RF patients to Scale 1 when oxygen is removed — raised with IT"
+          },
+          {
+            "text": "Clinical issue: anyone cancelling oxygen in a COPD patient must re-prescribe PRN with correct target immediately"
+          }
+        ]
+      },
+      "quiz": {
+        "question": "A known COPD patient is on Scale 2 oxygen (SpO2 88–92%) in ED. The medical SHO clerking them cancels the oxygen prescription. What should happen next?",
+        "options": [
+          "Nothing — the patient will be monitored by nursing",
+          "The SHO must immediately re-prescribe oxygen as PRN with SpO2 target 88–92%",
+          "Scale 1 oxygen (>94%) is acceptable as a default",
+          "Oxygen only needs re-prescribing if SpO2 falls below 85%"
+        ],
+        "answer_index": 1,
+        "explanation": "Cancelling oxygen without re-prescribing causes PICS to default to Scale 1, which is dangerous in COPD. The prescriber must immediately re-prescribe PRN oxygen with target SpO2 88–92%. This is a real BHH incident from Risky Business Ed 44 — the patient developed type 2 respiratory failure as a direct consequence."
+      },
+      "source": {
+        "title": "Risky Business — Edition 44 (BHH ED Learning Newsletter, April 2026)",
+        "publisher": "BHH Emergency Department",
+        "url": ""
+      }
+    },
+    {
+      "id": "bhh-rb44-sickle-cell-analgesia",
+      "date": "",
+      "title": "Sickle cell crisis: always read the care plan, always treat the pain",
+      "category": "resus",
+      "tags": [
+        "sickle cell",
+        "analgesia",
+        "haematology"
+      ],
+      "difficulty": "core",
+      "status": "published",
+      "frcem_relevant": true,
+      "bullets": [
+        {
+          "text": "When a sickle cell patient presents in crisis, read their haematology care plan letter immediately — it contains their individual protocol"
+        },
+        {
+          "text": "NICE: give opioids early for severe pain — oral morphine for moderate, IV or SC for severe"
+        },
+        {
+          "text": "Analgesia within 30 minutes of arrival for pain score ≥7 — this is an RCEM quality indicator"
+        },
+        {
+          "text": "Reassess pain continuously — inadequate analgesia leads to distress, longer admissions and loss of trust"
+        },
+        {
+          "text": "Add paracetamol and NSAIDs (if not contraindicated) as adjuncts — multimodal is the NICE standard"
+        },
+        {
+          "text": "Monitor for respiratory depression if high-dose opioids used; escalate if pain uncontrolled despite protocol"
+        }
+      ],
+      "deep_dive": {
+        "type": "notes",
+        "heading": "Why sickle cell pain is undertreated",
+        "points": [
+          {
+            "text": "Unconscious bias and stigma around opioid-seeking behaviour — studies consistently show sickle cell patients wait longer for analgesia than other painful conditions"
+          },
+          {
+            "text": "Each patient's pain threshold and treatment dose differs — the care plan exists because one-size does not fit all"
+          },
+          {
+            "text": "Hydration, warmth and anxiolysis are important adjuncts but do not replace analgesia"
+          },
+          {
+            "text": "Haematology team can advise on hydroxycarbamide, blood transfusion and acute chest syndrome risk"
+          },
+          {
+            "text": "Acute chest syndrome: new chest pain, fever and hypoxia in sickle cell = medical emergency"
+          }
+        ]
+      },
+      "quiz": {
+        "question": "A sickle cell patient presents in crisis with pain score 9. They hand you their haematology care plan letter. What is the single most important first step?",
+        "options": [
+          "Give standard analgesia per your usual protocol and review the letter later",
+          "Read the care plan letter and prescribe analgesia per the individual protocol — do not delay",
+          "Contact haematology before giving any opioids",
+          "Give paracetamol and ibuprofen first and escalate if no response"
+        ],
+        "answer_index": 1,
+        "explanation": "The haematology care plan contains the patient's individual protocol including specific doses. Reading it immediately and prescribing per the plan is the correct approach. A real BHH case (Risky Business Ed 44) showed a patient with pain score consistently >8 who did not receive adequate analgesia despite multiple nursing prompts."
+      },
+      "source": {
+        "title": "Risky Business — Edition 44 (BHH ED Learning Newsletter, April 2026)",
+        "publisher": "BHH Emergency Department",
+        "url": ""
+      }
+    },
+    {
+      "id": "bhh-rb44-retained-foreign-body",
+      "date": "",
+      "title": "Glass lacerations: always image before you close",
+      "category": "safety",
+      "tags": [
+        "wound",
+        "foreign body",
+        "glass",
+        "imaging"
+      ],
+      "difficulty": "core",
+      "status": "published",
+      "frcem_relevant": false,
+      "bullets": [
+        {
+          "text": "Always X-ray wounds caused by glass, ceramic, or brittle materials before closure — even if the wound appears clean"
+        },
+        {
+          "text": "Glass is radio-opaque — plain X-ray will detect fragments ≥2 mm; smaller fragments may need CT or USS"
+        },
+        {
+          "text": "Explore the wound base and visualise to its deepest point before closure — do not close if you cannot see the bottom"
+        },
+        {
+          "text": "Document: mechanism (glass/ceramic), exploration findings, whether imaging was performed and result"
+        },
+        {
+          "text": "If imaging is deemed unnecessary, document your reasoning — this is your defence if a fragment is later found"
+        },
+        {
+          "text": "A cleaned and closed wound does not exclude a retained foreign body — the patient presenting 2 weeks later is a common scenario"
+        }
+      ],
+      "deep_dive": {
+        "type": "notes",
+        "heading": "From this case (Risky Business Ed 44)",
+        "points": [
+          {
+            "text": "Patient: glass laceration cleaned and closed without imaging. Re-presented 2 weeks later with persistent wound pain"
+          },
+          {
+            "text": "X-ray revealed an 18 mm glass fragment — required surgical removal"
+          },
+          {
+            "text": "Key failure: no imaging before closure despite glass mechanism"
+          },
+          {
+            "text": "Glass X-ray: window glass, beer glass and ceramic are reliably seen on plain film; car windscreen glass is less radio-opaque — lower threshold for CT"
+          },
+          {
+            "text": "USS is useful for non-radio-opaque foreign bodies (wood, plastic) and is operator-dependent"
+          }
+        ]
+      },
+      "quiz": {
+        "question": "A patient has a 1 cm laceration from breaking a glass. The wound appears clean and superficial. What must be done before closure?",
+        "options": [
+          "Close the wound — it appears superficial and clean",
+          "X-ray the wound to exclude retained glass fragment, then explore and close",
+          "USS only if clinical suspicion is high",
+          "No imaging needed for lacerations under 2 cm"
+        ],
+        "answer_index": 1,
+        "explanation": "Glass mechanism mandates X-ray before closure regardless of wound appearance. An 18 mm fragment was missed in the real Risky Business Ed 44 case because imaging was not done before a wound that appeared clean and superficial was closed."
+      },
+      "source": {
+        "title": "Risky Business — Edition 44 (BHH ED Learning Newsletter, April 2026)",
+        "publisher": "BHH Emergency Department",
+        "url": ""
+      }
     }
   ]
 }

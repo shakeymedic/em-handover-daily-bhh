@@ -1,0 +1,34 @@
+{
+  "note": "Active research trials recruiting in this department. Add or update entries as trials open or close. 'status': recruiting | paused | closed | completed.",
+  "trials": [
+    {
+      "id": "evita",
+      "name": "EVITA",
+      "full_name": "Evaluation of Intravenous Therapies for Asthma",
+      "status": "recruiting",
+      "sponsor": "University of Southampton / NIHR HTA",
+      "nihr_id": "NIHR162027",
+      "question": "What is the clinical and cost-effectiveness of IV bronchodilators in children with severe acute asthma unresponsive to maximal inhaled therapy?",
+      "design": "Phase 3 open-label 3-arm RCT · Research without prior consent (deferred consent)",
+      "population": "Children and young people aged 2–18 years",
+      "inclusion": [
+        "Age 2–18 years (up to the day before 19th birthday)",
+        "Known asthma or acute wheeze considered asthma by the assessing clinician",
+        "Unresponsive to maximal inhaled bronchodilator therapy (usually 3 back-to-back high-dose salbutamol + ipratropium), OR critical asthma requiring immediate IV treatment"
+      ],
+      "exclusion_brief": "Immediate need for invasive ventilation · Co-existing chronic lung disease · Severe renal or liver disease · Known IV bronchodilator contraindication · Previous EVITA randomisation · Beta-blocker or regular theophylline use · Another CTIMP in last 3 months",
+      "arms": [
+        "IV salbutamol — 15 micrograms/kg (max 250 micrograms) over 5–10 min, then 1 microgram/kg/min (max 20 micrograms/min)",
+        "IV magnesium sulfate — 40 mg/kg (max 2 g) over 20 min",
+        "IV aminophylline — 5 mg/kg (max 500 mg) over 20 min, then 1 mg/kg/hr (age 2–11) or 0.5 mg/kg/hr (age ≥12)"
+      ],
+      "primary_outcome": "Asthma severity score 2 hours after randomisation",
+      "consent": "Deferred consent for trial intervention. Prospective consent for process evaluation, health economics, and questionnaire.",
+      "what_to_do": "Register eligible patient on the trial database — this randomises them to one of the three IV arms. Research nurse will collect further trial data. Use local prescribing practice for preparation and administration.",
+      "recruitment_period": "September 2025 – approximately June 2027",
+      "sites": "20 acute trusts across the UK",
+      "contact": "Contact your local research nurse or PI for login credentials",
+      "url": "https://www.nihr.ac.uk/funding-and-support/funded-research/funded-projects/project/NIHR162027"
+    }
+  ]
+}
