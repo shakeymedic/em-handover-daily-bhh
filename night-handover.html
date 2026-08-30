@@ -13,7 +13,8 @@
   <div class="wrap masthead__row">
     <a class="wordmark" href="index.html">EM Handover <span>Daily</span></a>
     <nav class="nav" aria-label="Main">
-      <a href="index.html">Today</a>
+      <a href="index.html">Handover</a>
+      <a href="teaching.html">Teaching</a>
       <a href="archive.html">Archive</a>
       <a href="alerts.html">Alerts</a>
       <a href="night-handover.html" aria-current="page">Night handover</a>
@@ -30,7 +31,7 @@
 <main class="wrap">
 
   <div class="utility no-print">
-    <span>BHH ED handover prompt — nothing is saved or sent</span>
+    <span>Prompt sheet — nothing is saved or sent</span>
     <span class="btn-row">
       <button class="btn btn--primary" data-print>Print handover</button>
       <button class="btn" id="copy">Copy to clipboard</button>
@@ -40,127 +41,76 @@
 
   <form class="sheet" id="sheet" autocomplete="off">
 
-    <h2>BHH ED night handover</h2>
+    <h2>ED night handover</h2>
     <div class="row">
       <label class="stack">Date<input type="date" name="Date" id="date"></label>
       <label class="stack">Time<input type="time" name="Time" id="time"></label>
-      <label class="stack">Consultant on<input type="text" name="Consultant on"></label>
-      <label class="stack">Senior reg on<input type="text" name="Senior reg on"></label>
-    </div>
-    <div class="row">
       <label class="stack">Handed over by<input type="text" name="Handed over by"></label>
       <label class="stack">Receiving<input type="text" name="Receiving"></label>
     </div>
 
-    <p class="gdpr">Prompt only — do not enter patient-identifiable information.
-      Clinical handover documentation must be completed in your EPR.</p>
-
-    <!-- ═══════════════════════════════════════════════════════════════
-         SECTION 1 — ALL STAFF, DEPARTMENT-WIDE
-    ══════════════════════════════════════════════════════════════════ -->
-    <div class="section-label no-print">Section 1 — All staff, department-wide</div>
+    <p class="gdpr">This tool is a prompt only. Do not enter patient-identifiable
+      information. Clinical handover documentation must be completed in your EPR.</p>
 
     <fieldset>
-      <legend>1 — Introductions and register</legend>
-      <p class="hint">Cons + senior regs introduce themselves. Attendance register. Role allocation and learning needs for the shift.</p>
-      <div class="row">
-        <label class="stack">Staff present / roles allocated<textarea name="Staff and roles" rows="2"></textarea></label>
-        <label class="stack">Learning needs flagged<textarea name="Learning needs" rows="2"></textarea></label>
-      </div>
-      <label class="stack">Acknowledgement and thanks to the finishing team<textarea name="Thanks to finishing team" rows="1"></textarea></label>
-    </fieldset>
-
-    <fieldset>
-      <legend>2 — Imminent blue lights</legend>
-      <p class="hint">Any pre-alerts expected before the handover ends or within the next 30 minutes.</p>
-      <label class="stack"><span class="visually-hidden">Imminent pre-alerts</span>
-        <textarea name="Imminent blue lights" rows="3"></textarea></label>
-    </fieldset>
-
-    <fieldset>
-      <legend>3 — ABCDE — Acute and immediate concerns</legend>
-      <p class="hint">Absconding patients, bed and specialty issues, deaths, equipment issues — the things that must cross over whatever else is missed.</p>
+      <legend>1 — Deaths, disasters and deserters</legend>
+      <p class="hint">The three things that must be handed over, whatever else gets missed.</p>
       <div class="row">
         <label class="stack">Deaths<textarea name="Deaths" rows="2"></textarea></label>
-        <label class="stack">Absconding / DAMA / patients who have left<textarea name="Absconding" rows="2"></textarea></label>
+        <label class="stack">Disasters — incidents, complaints, near misses<textarea name="Disasters" rows="2"></textarea></label>
+        <label class="stack">Deserters — anyone who left before being seen or against advice<textarea name="Deserters" rows="2"></textarea></label>
       </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>2 — Department status</legend>
       <div class="row">
-        <label class="stack">Acute / immediate clinical concerns<textarea name="Acute concerns" rows="2"></textarea></label>
-        <label class="stack">Bed and specialty issues<textarea name="Bed and specialty" rows="2"></textarea></label>
+        <label class="stack">Patients in department<input type="text" name="Patients in department"></label>
+        <label class="stack">Longest wait<input type="text" name="Longest wait"></label>
+        <label class="stack">Resus / majors / paeds occupancy<input type="text" name="Occupancy"></label>
+        <label class="stack">Ambulance offload / corridor status<input type="text" name="Offload status"></label>
       </div>
-      <label class="stack">Equipment issues
-        <textarea name="Equipment" rows="2"></textarea></label>
-      <label class="stack">Active safety alerts
-        <p class="hint" style="margin:0.25rem 0">Pulled from live MHRA feed and RCEM alerts below — delete any not relevant.
-        Full archive: <a href="https://rcem.ac.uk/clinical-standards-and-guidance/" target="_blank" rel="noopener">rcem.ac.uk/clinical-standards-and-guidance</a></p>
-        <textarea name="Active alerts" id="alertbox" rows="3"></textarea></label>
-    </fieldset>
-
-    <!-- ═══════════════════════════════════════════════════════════════
-         SECTION 2 — RESUS, EDUCATION AND PAEDS
-    ══════════════════════════════════════════════════════════════════ -->
-    <div class="section-label no-print">Section 2 — Resus · Education · Paeds</div>
-
-    <fieldset>
-      <legend>4 — Resus handover</legend>
-      <p class="hint">Current resus patients — use bed space or initials only, no full identifiers.</p>
-      <label class="stack"><span class="visually-hidden">Resus patients</span>
-        <textarea name="Resus handover" rows="4"></textarea></label>
+      <label class="stack">Escalation level and what is already in place<textarea name="Escalation" rows="2"></textarea></label>
     </fieldset>
 
     <fieldset>
-      <legend>5 — Education / RCEM safety flash</legend>
-      <p class="hint">5-minute brief — aim for 3× weekly at morning handovers. Today's teaching point from the screen above.
-        <a href="https://rcem.ac.uk/clinical-standards-and-guidance/" target="_blank" rel="noopener">RCEM safety flash archive</a></p>
-      <label class="stack">Topic covered / notes<textarea name="Education point" rows="2"></textarea></label>
+      <legend>3 — Staff safety</legend>
+      <p class="hint">Security concerns, violent or aggressive patients, lone working, anyone who needs support tonight.</p>
+      <label class="stack"><span class="visually-hidden">Staff safety notes</span>
+        <textarea name="Staff safety" rows="3"></textarea></label>
     </fieldset>
 
     <fieldset>
-      <legend>6 — Paediatric handover</legend>
-      <p class="hint">Paediatric patients currently in department — use age/bed space only.</p>
-      <label class="stack"><span class="visually-hidden">Paediatric patients</span>
-        <textarea name="Paediatric handover" rows="4"></textarea></label>
-    </fieldset>
-
-    <!-- ═══════════════════════════════════════════════════════════════
-         SECTION 3 — SPLIT INTO TEAMS
-    ══════════════════════════════════════════════════════════════════ -->
-    <div class="section-label no-print">Section 3 — Split into teams</div>
-
-    <fieldset>
-      <legend>7 — Majors handover</legend>
-      <p class="hint">Patients not yet referred · Outstanding jobs for ED · Unwell / clinical concern / psychiatric concern · Suitable for discharge · Ambulance queue.</p>
-      <div class="row">
-        <label class="stack">Patients not yet referred<textarea name="Majors: not yet referred" rows="3"></textarea></label>
-        <label class="stack">Outstanding ED jobs<textarea name="Majors: outstanding jobs" rows="3"></textarea></label>
-      </div>
-      <div class="row">
-        <label class="stack">Unwell / clinical concern / psychiatric concern<textarea name="Majors: unwell or concern" rows="3"></textarea></label>
-        <label class="stack">Suitable for discharge<textarea name="Majors: suitable for discharge" rows="3"></textarea></label>
-      </div>
-      <label class="stack">Ambulance queue<textarea name="Ambulance queue" rows="2"></textarea></label>
-    </fieldset>
-
-    <fieldset>
-      <legend>8 — EDAA handover</legend>
-      <p class="hint">Separate handover in the EDAA Drs office. Patients not yet referred · Outstanding jobs for ED · Unwell / clinical concern / psychiatric concern · Suitable for discharge.</p>
-      <div class="row">
-        <label class="stack">Patients not yet referred<textarea name="EDAA: not yet referred" rows="3"></textarea></label>
-        <label class="stack">Outstanding ED jobs<textarea name="EDAA: outstanding jobs" rows="3"></textarea></label>
-      </div>
-      <div class="row">
-        <label class="stack">Unwell / clinical concern / psychiatric concern<textarea name="EDAA: unwell or concern" rows="3"></textarea></label>
-        <label class="stack">Suitable for discharge<textarea name="EDAA: suitable for discharge" rows="3"></textarea></label>
-      </div>
-    </fieldset>
-
-    <fieldset>
-      <legend>9 — Sickness and staffing</legend>
+      <legend>4 — Sickness and staffing</legend>
       <div class="row">
         <label class="stack">Gaps on the night rota<textarea name="Rota gaps" rows="2"></textarea></label>
         <label class="stack">Late or sick calls<textarea name="Sickness" rows="2"></textarea></label>
-        <label class="stack">Named consultant lead overnight<input type="text" name="Named night lead"></label>
+        <label class="stack">Who is the named lead overnight<input type="text" name="Named night lead"></label>
       </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>5 — Equipment and safety alerts</legend>
+      <p class="hint">Broken kit, missing equipment, and any live MHRA or RCEM alert for today.
+        Active alerts are pulled in below — delete any that are not relevant.
+        Full RCEM safety flash archive: <a href="https://rcem.ac.uk/clinical-standards-and-guidance/" target="_blank" rel="noopener">rcem.ac.uk/clinical-standards-and-guidance</a></p>
+      <label class="stack">Equipment issues<textarea name="Equipment" rows="2"></textarea></label>
+      <label class="stack">Active safety alerts
+        <textarea name="Active alerts" id="alertbox" rows="3"></textarea></label>
+    </fieldset>
+
+    <fieldset>
+      <legend>6 — Significant patients</legend>
+      <p class="hint">Not a clinical handover list. The few the oncoming lead must know about.
+        Use initials or bed space, never full identifiers.</p>
+      <label class="stack"><span class="visually-hidden">Significant patients</span>
+        <textarea name="Significant patients" rows="5"></textarea></label>
+    </fieldset>
+
+    <fieldset>
+      <legend>7 — Tasks for the night team</legend>
+      <label class="stack"><span class="visually-hidden">Tasks</span>
+        <textarea name="Tasks" rows="4"></textarea></label>
     </fieldset>
 
   </form>
@@ -179,7 +129,7 @@
   document.getElementById('time').value =
     `${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}`;
 
-  // Pre-populate today's live alerts
+  // Pre-populate today's live alerts. Always editable, never locked.
   getAlerts({ limit: 3 }).then(payload => {
     const lines = alertLines(payload);
     if (lines.length) document.getElementById('alertbox').value = lines.join('\n');
@@ -192,7 +142,7 @@
   });
 
   document.getElementById('copy').addEventListener('click', async () => {
-    const out = ['BHH ED NIGHT HANDOVER'];
+    const out = ['ED NIGHT HANDOVER'];
     [...form.elements].forEach(el => {
       if (!el.name) return;
       const v = el.value.trim();
@@ -200,7 +150,7 @@
     });
     try {
       await navigator.clipboard.writeText(out.join('\n'));
-      status.textContent = 'Copied. Check before pasting — contains whatever you typed.';
+      status.textContent = 'Copied. Remember it contains whatever you typed — check before pasting.';
     } catch {
       status.textContent = 'Copy failed — your browser blocked clipboard access. Use Print instead.';
     }
@@ -209,17 +159,6 @@
 <style>
   .visually-hidden { position:absolute; width:1px; height:1px; overflow:hidden;
     clip:rect(0 0 0 0); white-space:nowrap; }
-  .section-label {
-    font-family: var(--mono);
-    font-size: 0.6875rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--signal);
-    font-weight: 700;
-    padding: 1.25rem 0 0.25rem;
-    border-top: 2px solid var(--signal);
-    margin-top: 0.5rem;
-  }
 </style>
 </body>
 </html>
