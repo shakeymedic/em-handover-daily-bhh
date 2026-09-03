@@ -2,6 +2,39 @@
   "note": "EM Evidence Rundown papers only (Issues 1-27). Recent papers (last 8 weeks, since 2026-07) listed first to dominate rotation. FOAMed, safety alerts, quick hits, and prehospital excluded. Sheet ID: 1qjPV9ClYIg6piwwnoWtWt0kBpPWDq_ON_ia0MPEq7fw",
   "papers": [
     {
+      "id": "prompt-bolus-nejm-2026",
+      "title": "PRoMPT BOLUS: Balanced Fluid vs 0.9% Saline in Paediatric Septic Shock \u2014 No Difference (NEJM, n=8,400+)",
+      "journal": "New England Journal of Medicine",
+      "year": 2026,
+      "date": "2026-09-04",
+      "takeaway": "Either balanced crystalloid or 0.9% saline is safe for paediatric septic shock in the ED. No difference in MAKE30, mortality, or hospital-free days. Lower hyperchloraemia with balanced fluid. Both are acceptable.",
+      "pmid": "42028918",
+      "doi": "10.1056/NEJMoa2601969",
+      "issue": "Issue 28 \u2014 4 Sep 2026"
+    },
+    {
+      "id": "nahco3-ihca-jama-2026",
+      "title": "Sodium Bicarbonate for In-Hospital Cardiac Arrest \u2014 No Improvement in ROSC or Survival (JAMA RCT)",
+      "journal": "JAMA",
+      "year": 2026,
+      "date": "2026-09-04",
+      "takeaway": "NaHCO3 during IHCA does not improve ROSC or survival. Reserve for: tricyclics, hyperkalaemia, prolonged arrest. Update your resus protocol \u2014 remove from routine use.",
+      "pmid": "42273960",
+      "doi": null,
+      "issue": "Issue 28 \u2014 4 Sep 2026"
+    },
+    {
+      "id": "ats-nirs-guideline-2026",
+      "title": "ATS NIRS Guideline 2026: HFNC first-line for acute hypoxaemic failure",
+      "journal": "Am J Respir Crit Care Med",
+      "year": 2026,
+      "date": "2026-09-04",
+      "takeaway": "Strong rec: HFNC for de novo acute hypoxaemic resp failure (intubation RR 0.76, mod certainty). Strong rec: HFNC or NIV for pre-intubation preoxygenation (NIV RR 0.51 high certainty). American guideline (ATS) \u2014 directly applicable to UK ED HFNC use.",
+      "pmid": null,
+      "doi": "10.1093/ajrccm/aamag302",
+      "issue": "Issue 28 \u2014 4 Sep 2026"
+    },
+    {
       "date": "2026-08-30",
       "title": "Rocuronium >1.2 mg/kg RSI: 100% first-pass success vs 89.5%",
       "authors": "Szesnat M",
@@ -108,7 +141,7 @@
     },
     {
       "date": "2026-08-31",
-      "title": "SAPB for acute rib fractures in the ED — RCT",
+      "title": "SAPB for acute rib fractures in the ED \u2014 RCT",
       "authors": "Perice L",
       "journal": "Acad Emerg Med",
       "year": "2026",
@@ -138,7 +171,7 @@
     },
     {
       "date": "",
-      "title": "RSI in myasthenia gravis — neuromuscular blocker data",
+      "title": "RSI in myasthenia gravis \u2014 neuromuscular blocker data",
       "authors": "Polito NB",
       "journal": "Am J Emerg Med",
       "year": "2026",
@@ -198,7 +231,7 @@
     },
     {
       "date": "",
-      "title": "IO lines in children — long-term complications rare",
+      "title": "IO lines in children \u2014 long-term complications rare",
       "authors": "Carley ELJ",
       "journal": "Emerg Med J",
       "year": "2026",
@@ -244,7 +277,7 @@
     {
       "date": "",
       "title": "AI as second reader for pneumothorax detection in ED: redirects CT rather than reduces it",
-      "authors": "Cırıl MF",
+      "authors": "C\u0131r\u0131l MF",
       "journal": "BMC Emerg Med",
       "year": "2026",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42393541/",
@@ -310,7 +343,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42342255/",
       "doi": "",
       "pmid": "42342255",
-      "takeaway": "In pediatric participants aged at least 6 years, NMV/r 300/100 mg BID (weighing ≥40 kg) and 150/100 mg BID (weighing 20-<40 kg) regimens achieved exposures similar to adults that w",
+      "takeaway": "In pediatric participants aged at least 6 years, NMV/r 300/100 mg BID (weighing \u226540 kg) and 150/100 mg BID (weighing 20-<40 kg) regimens achieved exposures similar to adults that w",
       "design": "",
       "tags": [
         "Paediatric EM"
@@ -348,7 +381,7 @@
     },
     {
       "date": "",
-      "title": "Fosfomycin oral step-down for ESBL complicated UTI — RCT non-inferiority",
+      "title": "Fosfomycin oral step-down for ESBL complicated UTI \u2014 RCT non-inferiority",
       "authors": "Seo JW",
       "journal": "Clin Infect Dis",
       "year": "2026",
@@ -393,7 +426,7 @@
     },
     {
       "date": "",
-      "title": "Intussusception: failure predictors — age >48m, symptoms >48h, constipation, US wall thickening",
+      "title": "Intussusception: failure predictors \u2014 age >48m, symptoms >48h, constipation, US wall thickening",
       "authors": "Xiong J",
       "journal": "BMC Pediatr",
       "year": "2026",
@@ -423,7 +456,7 @@
     },
     {
       "date": "",
-      "title": "Suicidality Following Sexual Abuse in Children 10-17 — 11.1% Within 90 Days, Higher With Non-Relative Perpetrator",
+      "title": "Suicidality Following Sexual Abuse in Children 10-17 \u2014 11.1% Within 90 Days, Higher With Non-Relative Perpetrator",
       "authors": "Sornabala D",
       "journal": "Pediatrics",
       "year": "2026",
@@ -438,7 +471,7 @@
     },
     {
       "date": "",
-      "title": "POCUS During Inpatient Cardiac Arrest — QI Project Raises Usage 16% to 35%, Changes Management >30%",
+      "title": "POCUS During Inpatient Cardiac Arrest \u2014 QI Project Raises Usage 16% to 35%, Changes Management >30%",
       "authors": "Donat C",
       "journal": "J Gen Intern Med",
       "year": "2026",
@@ -453,7 +486,7 @@
     },
     {
       "date": "",
-      "title": "Pathophysiology of Distributive Shock in Sepsis — Beyond Vasoplegia: Microcirculatory Failure, Mitochondrial Dysfunction, Endothelial Injury",
+      "title": "Pathophysiology of Distributive Shock in Sepsis \u2014 Beyond Vasoplegia: Microcirculatory Failure, Mitochondrial Dysfunction, Endothelial Injury",
       "authors": "Hunsicker O",
       "journal": "Intensive Care Med",
       "year": "2026",
@@ -513,7 +546,7 @@
     },
     {
       "date": "",
-      "title": "POCUS Infant Bladder SR/MA 3 RCTs — 89.7% vs 72.5% First-Attempt Success, Dry Taps 3.6% vs 23.9%",
+      "title": "POCUS Infant Bladder SR/MA 3 RCTs \u2014 89.7% vs 72.5% First-Attempt Success, Dry Taps 3.6% vs 23.9%",
       "authors": "Vieira da Silva HF",
       "journal": "Acad Emerg Med",
       "year": "2026",
@@ -528,7 +561,7 @@
     },
     {
       "date": "",
-      "title": "LUS + CRP for Bacterial Pneumonia in Children — Specificity 0.91 Combined",
+      "title": "LUS + CRP for Bacterial Pneumonia in Children \u2014 Specificity 0.91 Combined",
       "authors": "Fremuth J",
       "journal": "Eur J Pediatr",
       "year": "2026",
@@ -543,7 +576,7 @@
     },
     {
       "date": "",
-      "title": "NLS Telesimulation for Rural Clinicians — Sustained Improvement at 6 and 12 months",
+      "title": "NLS Telesimulation for Rural Clinicians \u2014 Sustained Improvement at 6 and 12 months",
       "authors": "Melendi M",
       "journal": "Pediatrics",
       "year": "2026",
@@ -565,7 +598,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41540593/",
       "doi": "",
       "pmid": "41540593",
-      "takeaway": "Lung ultrasound reduces the frequency of radiological examinations, radiation exposure, shortens duration of illness in severe cases, and lowers hospitalization costs. © 2026 Wiley",
+      "takeaway": "Lung ultrasound reduces the frequency of radiological examinations, radiation exposure, shortens duration of illness in severe cases, and lowers hospitalization costs. \u00a9 2026 Wiley",
       "design": "",
       "tags": [
         "Resuscitation"
@@ -588,7 +621,7 @@
     },
     {
       "date": "",
-      "title": "POCUS Pathway for ED Dyspnoea RCT — Certainty Without Management Change",
+      "title": "POCUS Pathway for ED Dyspnoea RCT \u2014 Certainty Without Management Change",
       "authors": "Ovesen SH",
       "journal": "Eur J Emerg Med",
       "year": "2026",
@@ -610,7 +643,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42098731/",
       "doi": "",
       "pmid": "42098731",
-      "takeaway": "Carotid Doppler parameters (VTI、Vmax、Vmin、TAV、MD*、RI、dv.MAX) significantly differ between ROSC and non-ROSC groups. These parameters may provide objective hemodynamic insights duri",
+      "takeaway": "Carotid Doppler parameters (VTI\u3001Vmax\u3001Vmin\u3001TAV\u3001MD*\u3001RI\u3001dv.MAX) significantly differ between ROSC and non-ROSC groups. These parameters may provide objective hemodynamic insights duri",
       "design": "",
       "tags": [
         "Resuscitation"
@@ -648,7 +681,7 @@
     },
     {
       "date": "",
-      "title": "Airway Management of Adults in the Acute Care Setting — BMJ State of the Art 2026 (PMID 41951238) [FOCUS]",
+      "title": "Airway Management of Adults in the Acute Care Setting \u2014 BMJ State of the Art 2026 (PMID 41951238) [FOCUS]",
       "authors": "Gottlieb M",
       "journal": "BMJ",
       "year": "2026",
@@ -663,7 +696,7 @@
     },
     {
       "date": "",
-      "title": "ED Boarding and Clinical Deterioration — Ann Emerg Med 2026",
+      "title": "ED Boarding and Clinical Deterioration \u2014 Ann Emerg Med 2026",
       "authors": "Rizer NW",
       "journal": "Ann Emerg Med",
       "year": "2026",
@@ -678,7 +711,7 @@
     },
     {
       "date": "",
-      "title": "Maternal RSV Vaccination vs Infant Nirsevimab vs Both — Interim RCT",
+      "title": "Maternal RSV Vaccination vs Infant Nirsevimab vs Both \u2014 Interim RCT",
       "authors": "Rostad CA",
       "journal": "Pediatrics",
       "year": "2026",
@@ -693,7 +726,7 @@
     },
     {
       "date": "",
-      "title": "ICP Monitoring in Paediatric Severe TBI — EVD vs IPM",
+      "title": "ICP Monitoring in Paediatric Severe TBI \u2014 EVD vs IPM",
       "authors": "Stewart C",
       "journal": "J Trauma Acute Care Surg",
       "year": "2026",
@@ -723,7 +756,7 @@
     },
     {
       "date": "",
-      "title": "Ketamine vs Etomidate RSI — No Mortality Difference, Ketamine More CV Collapse",
+      "title": "Ketamine vs Etomidate RSI \u2014 No Mortality Difference, Ketamine More CV Collapse",
       "authors": "Casey JD",
       "journal": "N Engl J Med",
       "year": "2026",
@@ -738,7 +771,7 @@
     },
     {
       "date": "",
-      "title": "ANDROMEDA-SHOCK-2 — CRT Protocol Reduces Organ Support",
+      "title": "ANDROMEDA-SHOCK-2 \u2014 CRT Protocol Reduces Organ Support",
       "authors": "Spanish  Society of Anesthesiology, et al.",
       "journal": "JAMA",
       "year": "2025",
@@ -753,7 +786,7 @@
     },
     {
       "date": "",
-      "title": "Pericardiocentesis + Intrapericardial TXA — 25-Case Series Penetrating Tamponade",
+      "title": "Pericardiocentesis + Intrapericardial TXA \u2014 25-Case Series Penetrating Tamponade",
       "authors": "Qandil M",
       "journal": "Injury",
       "year": "2026",
@@ -783,7 +816,7 @@
     },
     {
       "date": "",
-      "title": "No OUCH RCT — Ibuprofen Alone for Paediatric MSK Pain",
+      "title": "No OUCH RCT \u2014 Ibuprofen Alone for Paediatric MSK Pain",
       "authors": "Ali S",
       "journal": "JAMA",
       "year": "2026",
@@ -828,7 +861,7 @@
     },
     {
       "date": "",
-      "title": "Paeds Septic Shock Fluid RCT — Balanced vs Saline No Difference",
+      "title": "Paeds Septic Shock Fluid RCT \u2014 Balanced vs Saline No Difference",
       "authors": "Balamuth F",
       "journal": "N Engl J Med",
       "year": "2026",
@@ -843,7 +876,7 @@
     },
     {
       "date": "",
-      "title": "Paediatric Drowning OHCA: CCO CPR worse outcomes — rescue breaths essential",
+      "title": "Paediatric Drowning OHCA: CCO CPR worse outcomes \u2014 rescue breaths essential",
       "authors": "Obara T",
       "journal": "Resuscitation",
       "year": "2026",
@@ -858,7 +891,7 @@
     },
     {
       "date": "",
-      "title": "CCO vs Standard CPR in Adult OHCA: Similar outcomes — SR/MA 230,000 patients",
+      "title": "CCO vs Standard CPR in Adult OHCA: Similar outcomes \u2014 SR/MA 230,000 patients",
       "authors": "Hasanvand F",
       "journal": "Am J Med",
       "year": "2026",
@@ -873,7 +906,7 @@
     },
     {
       "date": "",
-      "title": "UKHSA MenB Canterbury UPDATE — 21 cases, 2 deaths, downgraded to standard incident",
+      "title": "UKHSA MenB Canterbury UPDATE \u2014 21 cases, 2 deaths, downgraded to standard incident",
       "authors": "",
       "journal": "",
       "year": "2026",
@@ -888,7 +921,7 @@
     },
     {
       "date": "",
-      "title": "UKHSA Legionnaires' Disease Outbreak — NW and SW London",
+      "title": "UKHSA Legionnaires' Disease Outbreak \u2014 NW and SW London",
       "authors": "",
       "journal": "",
       "year": "2026",
@@ -903,7 +936,7 @@
     },
     {
       "date": "",
-      "title": "Resident Doctors' Strike 7–13 April 2026 — RCEM + NHS England Guidance",
+      "title": "Resident Doctors' Strike 7\u201313 April 2026 \u2014 RCEM + NHS England Guidance",
       "authors": "",
       "journal": "",
       "year": "2026",
@@ -918,7 +951,7 @@
     },
     {
       "date": "",
-      "title": "FICM/ICS GPICS V3 — 3rd Edition, Now in Active Implementation",
+      "title": "FICM/ICS GPICS V3 \u2014 3rd Edition, Now in Active Implementation",
       "authors": "",
       "journal": "",
       "year": "2026",
@@ -933,7 +966,7 @@
     },
     {
       "date": "",
-      "title": "HI-PEITHO Trial — Catheter-Directed Fibrinolysis in High-Intermediate Risk PE",
+      "title": "HI-PEITHO Trial \u2014 Catheter-Directed Fibrinolysis in High-Intermediate Risk PE",
       "authors": "",
       "journal": "",
       "year": "2026",
@@ -948,7 +981,7 @@
     },
     {
       "date": "",
-      "title": "Single-Shot Regional Anaesthesia for Rib Fractures — Systematic Review and Network Meta-Analysis",
+      "title": "Single-Shot Regional Anaesthesia for Rib Fractures \u2014 Systematic Review and Network Meta-Analysis",
       "authors": "",
       "journal": "Anaesthesia",
       "year": "2026",
@@ -963,7 +996,7 @@
     },
     {
       "date": "",
-      "title": "PROMINE Trial — Propofol vs Ketamine for RSI in Critically Ill Patients",
+      "title": "PROMINE Trial \u2014 Propofol vs Ketamine for RSI in Critically Ill Patients",
       "authors": "",
       "journal": "",
       "year": "2026",
@@ -978,7 +1011,7 @@
     },
     {
       "date": "",
-      "title": "BESS Trial — Surfactant Does NOT Reduce Ventilation Duration in Severe Bronchiolitis",
+      "title": "BESS Trial \u2014 Surfactant Does NOT Reduce Ventilation Duration in Severe Bronchiolitis",
       "authors": "",
       "journal": "",
       "year": "2026",
@@ -1008,7 +1041,7 @@
     },
     {
       "date": "",
-      "title": "Succinylcholine vs Rocuronium in Paediatric RSI — Mortality Signal Favours Succinylcholine",
+      "title": "Succinylcholine vs Rocuronium in Paediatric RSI \u2014 Mortality Signal Favours Succinylcholine",
       "authors": "",
       "journal": "",
       "year": "2026",
@@ -1023,7 +1056,7 @@
     },
     {
       "date": "",
-      "title": "DFTB 100th Bubble Wrap — DKA Fluids RCT (RL vs 0.9% Saline) + Croup MDI Adrenaline",
+      "title": "DFTB 100th Bubble Wrap \u2014 DKA Fluids RCT (RL vs 0.9% Saline) + Croup MDI Adrenaline",
       "authors": "",
       "journal": "",
       "year": "2026",
@@ -1038,7 +1071,7 @@
     },
     {
       "date": "",
-      "title": "St Emlyn's TTL Tips 8 — External Haemorrhage Control",
+      "title": "St Emlyn's TTL Tips 8 \u2014 External Haemorrhage Control",
       "authors": "",
       "journal": "",
       "year": "2026",
@@ -1053,7 +1086,7 @@
     },
     {
       "date": "",
-      "title": "Quick Hit: UKHSA Measles Resurgence — MMR Uptake Decade-Low",
+      "title": "Quick Hit: UKHSA Measles Resurgence \u2014 MMR Uptake Decade-Low",
       "authors": "",
       "journal": "",
       "year": "2026",
@@ -1068,7 +1101,7 @@
     },
     {
       "date": "",
-      "title": "Quick Hit: NHS England 2026/27 GP Contract — Same-Day Urgent Access + Mandatory A&G",
+      "title": "Quick Hit: NHS England 2026/27 GP Contract \u2014 Same-Day Urgent Access + Mandatory A&G",
       "authors": "",
       "journal": "",
       "year": "2026",
@@ -1083,7 +1116,7 @@
     },
     {
       "date": "",
-      "title": "Quick Hit: EMCrit — ECGs in Acute Pulmonary Embolism",
+      "title": "Quick Hit: EMCrit \u2014 ECGs in Acute Pulmonary Embolism",
       "authors": "",
       "journal": "",
       "year": "2026",
@@ -1098,7 +1131,7 @@
     },
     {
       "date": "",
-      "title": "Quick Hit: Gabapentinoids — Seldom Help, Often Harm",
+      "title": "Quick Hit: Gabapentinoids \u2014 Seldom Help, Often Harm",
       "authors": "",
       "journal": "",
       "year": "2026",
@@ -1113,7 +1146,7 @@
     },
     {
       "date": "",
-      "title": "Quick Hit: US-Guided Peripheral IV — 80% Improved First-Attempt Success SR/MA",
+      "title": "Quick Hit: US-Guided Peripheral IV \u2014 80% Improved First-Attempt Success SR/MA",
       "authors": "",
       "journal": "",
       "year": "2026",
