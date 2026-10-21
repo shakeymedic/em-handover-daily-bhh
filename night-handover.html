@@ -84,7 +84,11 @@ body.handover .hv-alert        { font-size: 0.95rem; }
 body.handover .hv-alert__src   { font-size: 0.75rem; }
 
 /* Portrait hint */
-@media (orientation: portrait) and (max-width: 900px) { .rotate-hint { display: flex !important; } }
+@media (orientation: portrait) and (max-width: 900px) {
+  .rotate-hint { display: flex !important; }
+  /* The board is still laid out behind the hint; stop it being dragged sideways */
+  html, body { overflow: hidden !important; }
+}
 .rotate-hint {
   display: none; position: fixed; inset: 0; z-index: 9999;
   background: var(--paper-raised); align-items: center; justify-content: center;

@@ -426,7 +426,11 @@ body.handover .hv-paper__qr-col svg { width: 90px; height: 90px; }
 body.handover .hv-paper__qr-col .hv-paper__no-qr { width: 90px; height: 90px; }
 
 /* ── Portrait hint ────────────────────────────────────────────────────────── */
-@media (orientation: portrait) and (max-width: 900px) { .rotate-hint { display: flex !important; } }
+@media (orientation: portrait) and (max-width: 900px) {
+  .rotate-hint { display: flex !important; }
+  /* The board is still laid out behind the hint; stop it being dragged sideways */
+  html, body { overflow: hidden !important; }
+}
 .rotate-hint {
   display: none; position: fixed; inset: 0; z-index: 9999;
   background: var(--bg); align-items: center; justify-content: center;
