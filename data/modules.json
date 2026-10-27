@@ -3955,7 +3955,7 @@
           "Compression-only CPR — as per standard public bystander guidance",
           "Standard CPR with rescue breaths (30:2 if alone, 15:2 if two rescuers) — rescue breathing is essential in drowning",
           "Rescue breaths only — no chest compressions until the ambulance arrives",
-          "Wait for EMS with AED — bystander CPR may cause harm in a child"
+          "Wait for the ambulance and an AED — bystander CPR may cause harm in a child"
         ],
         "answer_index": 1,
         "explanation": "Drowning is an asphyxial arrest — rescue breaths are mandatory. Compression-only CPR is significantly inferior in paediatric drowning (Resuscitation 2026, PMID 41819340). CO-CPR guidance was designed for witnessed adult VF arrest, not paediatric asphyxial arrest. Every second without oxygenation worsens outcome."
