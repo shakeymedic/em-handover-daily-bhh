@@ -261,7 +261,7 @@
       "frcem_relevant": true,
       "bullets": [
         {
-          "text": "Bolus 10 mL/kg of balanced crystalloid, then reassess before the next one"
+          "text": "Bolus 10 mL/kg of glucose-free crystalloid (sodium 130–154 mmol/L) over less than 10 minutes, then reassess before the next one"
         },
         {
           "text": "Reassess after every bolus: heart rate, perfusion, conscious level, liver edge"
@@ -273,7 +273,7 @@
           "text": "In DKA and severe malnutrition the approach is different — follow those pathways"
         },
         {
-          "text": "If shock persists after 40 to 60 mL/kg, think inotropes and critical care, not more fluid"
+          "text": "If there is no improvement after a second bolus, alert a consultant to attend in person (NICE NG254); persisting shock needs inotropes and critical care, not more fluid"
         },
         {
           "text": "Weight: use the child's actual weight if known, otherwise an age-based formula"
@@ -301,9 +301,9 @@
         "explanation": "Persisting shock after substantial fluid should prompt vasoactive support and critical care involvement rather than continued escalating boluses."
       },
       "source": {
-        "title": "Sepsis: recognition, diagnosis and early management (NG51)",
+        "title": "Suspected sepsis in under 16s: recognition, diagnosis and early management (NG254)",
         "publisher": "NICE",
-        "url": "https://www.nice.org.uk/guidance/ng51"
+        "url": "https://www.nice.org.uk/guidance/ng254"
       }
     },
     {
@@ -1378,7 +1378,7 @@
           "text": "Rocuronium 1.2 mg/kg IV is the standard paralytic; suxamethonium 1.5 mg/kg if rapid offset required (contraindicated in hyperkalaemia, burns >24h, denervation)"
         },
         {
-          "text": "Failed intubation drill (DAS 2015): declare failed after 3 attempts, maintain oxygenation as the priority, call for surgical airway early"
+          "text": "Failed intubation (DAS 2025): maximum 3+1 attempts at tracheal intubation using a videolaryngoscope, then declare failed intubation with the eFONA kit immediately accessible; keep oxygenating throughout"
         },
         {
           "text": "Post-intubation: sedate + paralyse for transfer, target SpO2 94–98%, PaCO2 4.5–6 kPa, ventilate 6–8 mL/kg IBW"
@@ -1386,13 +1386,13 @@
       ],
       "deep_dive": {
         "type": "algorithm",
-        "heading": "DAS 2015 Failed Intubation Pathway",
+        "heading": "DAS 2025 Unanticipated Difficult Intubation Pathway",
         "steps": [
-          "Plan A: direct or video laryngoscopy — maximum 3 attempts by experienced operator",
-          "Maintain oxygenation between each attempt; use IGEL or LMA if mask ventilation fails",
-          "Plan B: supraglottic airway device (SGA) — declare cant-intubate-can-oxygenate and call for help",
-          "Plan C: wake the patient if SGA provides adequate oxygenation and intubation not immediately essential",
-          "Plan D: cant-intubate-cant-oxygenate (CICO) — front-of-neck airway (FONA) with scalpel-bougie-tube technique immediately",
+          "Plan A: tracheal intubation with a videolaryngoscope and adequate neuromuscular blockade — maximum 3+1 attempts; confirm with waveform capnography",
+          "Declare failed intubation: ensure the eFONA kit is immediately accessible; keep oxygenating throughout",
+          "Plan B: supraglottic airway device (SAD), maximum 3 attempts — if ventilation works, stop, think and communicate: wake the patient, intubate via the SAD, proceed without intubating, or FONA",
+          "Declare failed SAD ventilation and open the eFONA kit. Plan C: final attempt at facemask ventilation — if it works, consider with senior input reversing neuromuscular blockade and waking the patient, or FONA",
+          "Declare cannot intubate, cannot oxygenate (CICO). Plan D: emergency front-of-neck airway — scalpel (size 10), bougie, tube (6.0 mm), full neuromuscular blockade, maximal neck extension",
           "After any difficult airway: document in notes, alert the patient, complete Difficult Airway Alert Form"
         ]
       },
@@ -1408,9 +1408,9 @@
         "explanation": "Ketamine maintains sympathetic tone and is haemodynamically safer in shocked patients. Propofol causes vasodilation and myocardial depression, worsening hypotension. Thiopentone similarly reduces SVR. Midazolam alone without a paralytic is not RSI."
       },
       "source": {
-        "title": "Difficult Airway Society Guidelines for Unanticipated Difficult Intubation",
+        "title": "Difficult Airway Society 2025 guidelines for management of unanticipated difficult tracheal intubation in adults",
         "publisher": "Difficult Airway Society",
-        "url": "https://das.uk.com/guidelines/das-guidelines-for-management-of-unanticipated-difficult-intubation-in-adults-2015"
+        "url": "https://das.uk.com/guidelines/das_intubation_guidelines/"
       },
       "deep_dive_url": "https://emcrit.org/ibcc/airway/"
     },
@@ -1578,7 +1578,7 @@
           "text": "RV failure management: avoid tachycardia, maintain RV preload, avoid vasodilators, consider adrenaline infusion rather than noradrenaline"
         },
         {
-          "text": "If MAP remains <65 mmHg after 30 mL/kg crystalloid, vasopressor is indicated regardless of aetiology"
+          "text": "Septic shock in adults (NICE NG253): 250 mL crystalloid boluses, the first ideally over 10–15 min, reassessing after each, up to 1,000 mL total; if not improved, get senior advice and discuss vasopressors with critical care"
         }
       ],
       "deep_dive": {
@@ -1609,7 +1609,14 @@
         "publisher": "Life in the Fast Lane",
         "url": "https://litfl.com/rush-exam-rapid-ultrasound-in-shock/"
       },
-      "deep_dive_url": "https://emcrit.org/ibcc/shock/"
+      "deep_dive_url": "https://emcrit.org/ibcc/shock/",
+      "also_sources": [
+        {
+          "title": "Suspected sepsis in people aged 16 or over (NG253): managing suspected sepsis",
+          "publisher": "NICE",
+          "url": "https://www.nice.org.uk/guidance/ng253/chapter/Managing-suspected-sepsis"
+        }
+      ]
     },
     {
       "id": "tranexamic-acid-evidence",
@@ -1694,13 +1701,13 @@
           "text": "Weight estimation: (age + 4) × 2 kg for 1–10 years (APLS formula); Broselow tape for rapid bedside use; PAWPER tape reduces error in obese children"
         },
         {
-          "text": "Defibrillation: 4 J/kg for ALL DC shocks — first, second, and subsequent; the 2+4+4 J/kg sequence is historical — current RCUK 2021 recommends 4 J/kg throughout"
+          "text": "Defibrillation (RCUK 2025): 4 J/kg for the initial shocks, not exceeding adult doses (120–200 J); if more than five shocks are needed (refractory VF/pVT), increase the energy stepwise up to 8 J/kg (max 360 J)"
         },
         {
-          "text": "Adrenaline: 10 mcg/kg IV/IO (0.1 mL/kg of 1:10,000) every 3–5 minutes in arrest — same intervals as adults"
+          "text": "Adrenaline: 10 mcg/kg IV/IO (max 1 mg; 0.1 mL/kg of 1:10,000) every 3–5 minutes in arrest — same intervals as adults"
         },
         {
-          "text": "Amiodarone: 5 mg/kg IV/IO for shock-refractory VF/pVT — given after 3rd shock, repeated after 5th shock"
+          "text": "Amiodarone for shock-refractory VF/pVT: 5 mg/kg IV/IO (max 300 mg) immediately after the 3rd shock, then 5 mg/kg (max 150 mg) after the 5th shock"
         },
         {
           "text": "Non-shockable rhythms (PEA/asystole) predominate in paediatric arrest because cause is usually hypoxic — CPR quality and rapid airway management are the priorities"
@@ -1709,19 +1716,19 @@
           "text": "Paediatric airway differences: large occiput causes neck flexion, large tongue, anterior larynx, narrowest point at cricoid — uncuffed tubes to age 8 acceptable but cuffed preferred"
         },
         {
-          "text": "Post-arrest: ThAALO RCT showed targeted temperature management (32–34°C vs 36°C) did not improve survival; fever MUST be avoided regardless"
+          "text": "Post-arrest (RCUK 2025): temperature control for at least 24 h and fever avoided for at least 72 h; treat fever with active cooling. The THAPCA trials (out-of-hospital and in-hospital arrest) found no survival benefit from hypothermia at 33 °C versus normothermia at 36.8 °C (NEJM 2015, PMID 25913022; NEJM 2017, PMID 28118559)"
         }
       ],
       "deep_dive": {
         "type": "algorithm",
-        "heading": "Paediatric ALS Sequence (RCUK 2021)",
+        "heading": "Paediatric ALS Sequence (RCUK 2025)",
         "steps": [
           "Unresponsive, not breathing normally: call for help, start CPR 15:2 (two-rescuer) — 30:2 if alone",
-          "Rhythm check every 2 minutes: VF/pVT → defibrillate 4 J/kg; PEA/asystole → continue CPR",
+          "Rhythm check every 2 minutes: VF/pVT → defibrillate 4 J/kg (escalate stepwise up to 8 J/kg, max 360 J, if more than five shocks are needed); PEA/asystole → continue CPR",
           "IO access if IV fails after 60 seconds in arrest — tibial tuberosity or humeral head",
           "Adrenaline 10 mcg/kg every 3–5 min: non-shockable rhythm from start; shockable rhythm after 3rd shock",
           "Address 4Hs and 4Ts: hypoxia is the most common paediatric cause — early high-quality airway management",
-          "ROSC: avoid hypoxia, hypoglycaemia, hyperthermia — 4-hourly glucose checks for 24h post-arrest"
+          "ROSC: avoid hypoxia, hypoglycaemia and fever (temperature control for at least 24 h, fever avoided for at least 72 h) — 4-hourly glucose checks for 24h post-arrest"
         ]
       },
       "quiz": {
@@ -1733,12 +1740,12 @@
           "360 J"
         ],
         "answer_index": 1,
-        "explanation": "Current RCUK guidelines (2021) recommend 4 J/kg for all shocks in paediatric VF/pVT. For a 20 kg child: 4 × 20 = 80 J. The older 2+4+4 J/kg sequence is no longer recommended."
+        "explanation": "RCUK 2025 guidelines recommend 4 J/kg as the standard energy for the initial shocks in paediatric VF/pVT. For a 20 kg child: 4 × 20 = 80 J. Escalate stepwise up to 8 J/kg (max 360 J) only if more than five shocks are needed. The older 2+4+4 J/kg sequence is no longer recommended."
       },
       "source": {
-        "title": "Paediatric Advanced Life Support Guidelines 2021",
+        "title": "Paediatric Life Support (basic and advanced) — 2025 Resuscitation Guidelines",
         "publisher": "Resuscitation Council UK",
-        "url": "https://www.resus.org.uk/library/2021-resuscitation-guidelines/paediatric-advanced-life-support"
+        "url": "https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/paediatric-basic-life-support-guidelines"
       },
       "deep_dive_url": "https://dontforgetthebubbles.com/paediatric-resuscitation/"
     },
@@ -2808,7 +2815,7 @@
           "text": "Jolt accentuation test (headache worsening with 2–3 Hz horizontal head rotation): sensitivity 97% for meningism — more sensitive than Kernig's or Brudzinski's"
         },
         {
-          "text": "CT before LP indications: GCS <13, focal neurology, papilloedema, new seizure, immunosuppression, known CNS lesion — in ALL other cases, LP first"
+          "text": "Do not routinely image before LP (NICE NG240). Image first if: risk factors for an evolving space-occupying lesion, new focal neurology (including seizures or posturing), abnormal pupillary reactions, GCS 9 or less, or a progressive or rapid fall in consciousness — give antibiotics and stabilise before imaging"
         },
         {
           "text": "Antibiotics MUST NOT be delayed for CT: give ceftriaxone 2 g IV (adult) immediately when LP is deferred; delay >30 min worsens mortality"
@@ -2847,9 +2854,9 @@
         "explanation": "With GCS 15, no focal neurology, no papilloedema, there is NO indication for CT before LP. Correct sequence: blood cultures → ceftriaxone 2 g IV + dexamethasone → then LP. Do not delay antibiotics even to perform the LP first."
       },
       "source": {
-        "title": "Meningitis (bacterial) and meningococcal septicaemia in under 16s (CG102)",
+        "title": "Meningitis (bacterial) and meningococcal disease: recognition, diagnosis and management (NG240)",
         "publisher": "NICE",
-        "url": "https://www.nice.org.uk/guidance/cg102"
+        "url": "https://www.nice.org.uk/guidance/ng240"
       },
       "deep_dive_url": "https://emcrit.org/ibcc/meningitis/"
     },
@@ -3330,7 +3337,7 @@
           "text": "Sepsis definition (Sepsis-3): life-threatening organ dysfunction caused by dysregulated host response to infection — SOFA score ≥2 change from baseline; qSOFA ≥2 for rapid screening outside ICU"
         },
         {
-          "text": "Hour-1 bundle: blood cultures × 2 before antibiotics, IV antibiotics within 1 hour for septic shock, crystalloid for hypotension or lactate ≥4, vasopressors if MAP <65 after fluids, remeasure lactate"
+          "text": "Surviving Sepsis hour-1 bundle (international guidance): blood cultures × 2 before antibiotics, IV antibiotics within 1 hour for septic shock, fluid for hypotension or lactate ≥4 (in the UK, give it as NICE NG253 250 mL boluses — below), vasopressors if MAP <65 after fluids, remeasure lactate"
         },
         {
           "text": "ANDROMEDA-SHOCK-2 RCT (JAMA 2025, PMID 41159835): capillary refill time (CRT)-guided personalised resuscitation was superior to usual care — CRT is now validated as a resuscitation target alongside MAP and lactate"
@@ -3339,10 +3346,10 @@
           "text": "Antibiotic choice: piperacillin/tazobactam (Tazocin) 4.5 g IV TDS or meropenem 1 g IV TDS for undifferentiated septic shock; escalate to meropenem if ESBL risk or no response at 48h"
         },
         {
-          "text": "Vasopressor sequence (Surviving Sepsis 2026): noradrenaline first-line; add vasopressin 0.03 units/min when noradrenaline ≥0.25 mcg/kg/min; hydrocortisone 200 mg/day for refractory shock"
+          "text": "Vasopressor sequence (Surviving Sepsis 2026, international guidance): noradrenaline first-line; add vasopressin 0.03 units/min when noradrenaline ≥0.25 mcg/kg/min; hydrocortisone 200 mg/day for refractory shock"
         },
         {
-          "text": "Fluid strategy 2026: against fixed 30 mL/kg bolus in all patients — dynamic assessment (passive leg raise, pulse pressure variation) preferred; avoid fluid overload"
+          "text": "UK fluid volumes (NICE NG253, aged 16 or over): initial 250 mL crystalloid bolus, ideally over 10–15 min; further 250 mL boluses if needed, up to 1,000 mL total, reassessing after each; if not improved after 1,000 mL, get advice from a senior clinical decision maker. Surviving Sepsis 2026 (international) also advises against a fixed 30 mL/kg bolus for all and favours dynamic assessment"
         },
         {
           "text": "Source control within 6–12 hours of identification (drain abscess, remove infected device) — delay beyond 12h independently associated with worse outcomes"
@@ -3353,30 +3360,37 @@
         "heading": "ED Septic Shock Resuscitation Algorithm",
         "steps": [
           "0–15 min: recognise (NEWS2 ≥7, lactate ≥2, suspected infection), blood cultures × 2, broad-spectrum antibiotics immediately",
-          "0–30 min: 250–500 mL crystalloid boluses with reassessment after each; MAP target ≥65 mmHg",
-          "If MAP <65 after 1–2 L crystalloid: start noradrenaline via peripheral IV (up to 1–2h peripherally while CVC placed)",
+          "0–30 min: 250 mL crystalloid bolus, ideally over 10–15 min (NICE NG253); reassess after each; further 250 mL boluses if needed up to 1,000 mL total; MAP target ≥65 mmHg (Surviving Sepsis, international)",
+          "Not improved after 1,000 mL: get advice from a senior clinical decision maker, and discuss with critical care whether to start vasopressors and whether peripherally (NICE NG253) — follow local policy for peripheral noradrenaline",
           "Reassess dynamically: CRT, HR, MAP, lactate, urine output — dynamic measures outperform static CVP",
-          "Escalating vasopressor need (noradrenaline >0.25 mcg/kg/min): add vasopressin 0.03 units/min + hydrocortisone 200 mg/24h",
+          "Escalating vasopressor need (noradrenaline >0.25 mcg/kg/min): add vasopressin 0.03 units/min + hydrocortisone 200 mg/24h (Surviving Sepsis, international)",
           "Source control: identify and treat source within 12h; imaging to exclude drainable collection"
         ]
       },
       "quiz": {
-        "question": "A 70-year-old with suspected urinary source sepsis has MAP 58 despite 1.5 L crystalloid. HR 118, CRT 5 seconds, lactate 4.2 mmol/L. What is the next most important intervention?",
+        "question": "A 70-year-old with suspected urinary source sepsis has MAP 58 after 1,000 mL crystalloid given as 250 mL boluses. HR 118, CRT 5 seconds, lactate 4.2 mmol/L. What is the next most important intervention?",
         "options": [
           "Give another 1 L crystalloid bolus before considering vasopressors",
-          "Start noradrenaline targeting MAP ≥65 mmHg",
+          "Senior and critical care review to start noradrenaline, targeting MAP ≥65 mmHg",
           "Await blood culture results before starting antibiotics",
           "Give furosemide 40 mg IV to prevent fluid overload"
         ],
         "answer_index": 1,
-        "explanation": "This is septic shock with persistent hypotension after adequate fluid resuscitation and a rising lactate. Noradrenaline is the first-line vasopressor and should start without further delay. Antibiotics should already have been given. Furosemide is absolutely contraindicated in distributive shock."
+        "explanation": "This is septic shock that has not improved after 1,000 mL of fluid. NICE NG253 says to get advice from a senior clinical decision maker at this point and to discuss vasopressors (including peripheral starting) with critical care, rather than keep giving fluid. Noradrenaline is the first-line vasopressor (Surviving Sepsis, international guidance). Antibiotics should already have been given. Furosemide is absolutely contraindicated in distributive shock."
       },
       "source": {
-        "title": "Surviving Sepsis Campaign: International Guidelines 2026",
+        "title": "Surviving Sepsis Campaign: International Guidelines 2026 (international guidance)",
         "publisher": "Critical Care Medicine",
         "url": "https://pubmed.ncbi.nlm.nih.gov/41869847/"
       },
-      "deep_dive_url": "https://emcrit.org/ibcc/sepsis/"
+      "deep_dive_url": "https://emcrit.org/ibcc/sepsis/",
+      "also_sources": [
+        {
+          "title": "Suspected sepsis in people aged 16 or over (NG253): managing suspected sepsis",
+          "publisher": "NICE",
+          "url": "https://www.nice.org.uk/guidance/ng253/chapter/Managing-suspected-sepsis"
+        }
+      ]
     },
     {
       "id": "paediatric-septic-shock-fluids",

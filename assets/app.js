@@ -151,9 +151,13 @@ function sourceHTML(m) {
   if (!s) return '';
   const label = escapeHTML([s.title, s.journal || s.publisher].filter(Boolean).join(' — '));
   const link = s.url ? `<a href="${escapeHTML(s.url)}" target="_blank" rel="noopener">${label}</a>` : label;
+  const also = (m.also_sources || []).filter(a => a && a.url).map(a => {
+    const l = escapeHTML([a.title, a.journal || a.publisher].filter(Boolean).join(' — '));
+    return ` &middot; Also: <a href="${escapeHTML(a.url)}" target="_blank" rel="noopener">${l}</a>`;
+  }).join('');
   const deep = m.deep_dive_url
     ? ` &middot; <a href="${escapeHTML(m.deep_dive_url)}" target="_blank" rel="noopener">Deep dive</a>` : '';
-  return `<div class="src">Source: ${link}${deep}</div>`;
+  return `<div class="src">Source: ${link}${also}${deep}</div>`;
 }
 
 function renderModule(root, m, opts = {}) {
