@@ -2771,7 +2771,7 @@
           "After 2 IM adrenaline doses with no improvement: call for critical care help immediately",
           "IV adrenaline: ONLY in cardiac arrest (1 mg bolus) OR in expert setting with monitoring (50 mcg boluses titrated)",
           "Position: supine with legs raised unless airway concern — sitting or standing is linked to empty ventricle syndrome and arrest",
-          "IV fluids: 500 mL–1 L crystalloid bolus for distributive shock — may need up to 5–8 L total",
+          "IV fluids (Resuscitation Council UK 2021): rapid crystalloid bolus of 500–1000 mL in adults or 10 mL/kg in children, repeated as needed — up to 3–5 L may be needed in adults with severe anaphylactic shock",
           "Refractory vasodilation: vasopressin 1–2 units IV if noradrenaline infusion is insufficient",
           "Airway: early intubation for laryngeal oedema — oedema progresses rapidly and the window closes"
         ]
@@ -2818,7 +2818,7 @@
           "text": "Do not routinely image before LP (NICE NG240). Image first if: risk factors for an evolving space-occupying lesion, new focal neurology (including seizures or posturing), abnormal pupillary reactions, GCS 9 or less, or a progressive or rapid fall in consciousness — give antibiotics and stabilise before imaging"
         },
         {
-          "text": "Antibiotics MUST NOT be delayed for CT: give ceftriaxone 2 g IV (adult) immediately when LP is deferred; delay >30 min worsens mortality"
+          "text": "Give IV antibiotics within 1 hour of arrival (NICE NG240). Do the LP before antibiotics only if it is safe and will not cause a clinically significant delay; otherwise give antibiotics first (adult: ceftriaxone 2 g IV) and do the LP as soon as it is safe. Never delay antibiotics for CT"
         },
         {
           "text": "Dexamethasone 0.15 mg/kg IV (max 10 mg) with or just before first antibiotic dose: reduces mortality (NNT ~8) and deafness in bacterial meningitis"
@@ -2835,9 +2835,9 @@
         "heading": "Meningitis Action Sequence",
         "steps": [
           "Recognition: fever + headache + any neurological sign — assume meningitis until excluded",
-          "Immediate: blood cultures × 2, then ceftriaxone 2 g IV — do NOT wait for CT or LP",
+          "Within 1 hour of arrival: blood cultures, then LP before antibiotics only if safe and no clinically significant delay; otherwise ceftriaxone 2 g IV first — never wait for CT",
           "Dexamethasone 10 mg IV simultaneously with or just before first antibiotic dose",
-          "CT head only if one of the indications above is present, then LP — collect 10–15 mL CSF in 3 numbered bottles",
+          "CT head only if one of the indications above is present (antibiotics first), then LP as soon as it is safe — collect 10–15 mL CSF in 3 numbered bottles",
           "Add aciclovir 10 mg/kg IV if encephalitis features (altered cognition, behavioural change, focal deficit)",
           "UKHSA notification immediately for confirmed meningococcal — ciprofloxacin 500 mg PO single dose for close contacts"
         ]
@@ -2846,12 +2846,12 @@
         "question": "A 22-year-old has fever 39.2°C, severe headache for 6 hours, and neck stiffness. GCS 15, no focal neurology, no papilloedema. What is the correct sequence?",
         "options": [
           "CT head first, then LP if normal, then antibiotics",
-          "LP immediately (no CT indicated), then ceftriaxone + dexamethasone",
-          "Blood cultures then ceftriaxone + dexamethasone immediately, then LP (no CT indication present)",
+          "Ceftriaxone + dexamethasone now and skip the LP — it adds nothing once antibiotics are given",
+          "Blood cultures and LP now (no CT indication; safe and no clinically significant delay), then ceftriaxone + dexamethasone — antibiotics within 1 hour of arrival",
           "Oral antibiotics and GP follow-up if clinically stable"
         ],
         "answer_index": 2,
-        "explanation": "With GCS 15, no focal neurology, no papilloedema, there is NO indication for CT before LP. Correct sequence: blood cultures → ceftriaxone 2 g IV + dexamethasone → then LP. Do not delay antibiotics even to perform the LP first."
+        "explanation": "With GCS 15, no focal neurology and no papilloedema there is no indication for CT before LP. NICE NG240: antibiotics should start within 1 hour of arrival, and blood tests and LP should be done before antibiotics if it is safe and will not cause a clinically significant delay (1.4.1, 1.4.9). If the LP cannot be done promptly, give antibiotics first and do the LP as soon as it is safe (1.4.10). Never delay antibiotics for CT."
       },
       "source": {
         "title": "Meningitis (bacterial) and meningococcal disease: recognition, diagnosis and management (NG240)",

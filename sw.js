@@ -1,6 +1,6 @@
 /* Offline shell. Cache-first for the app files, network-first for content
    so a new module appears without waiting for a cache expiry. */
-const VERSION = 'ehd-v3';
+const VERSION = 'ehd-v4';
 const SHELL = [
   './', './index.html', './teaching.html', './archive.html', './alerts.html',
   './night-handover.html', './about.html',
